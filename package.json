@@ -1,0 +1,13 @@
+{
+    "name": "personal-expense-calculator",
+    "version": "1.0.0",
+    "description": "A personal expense calculator",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build && start index.html"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
